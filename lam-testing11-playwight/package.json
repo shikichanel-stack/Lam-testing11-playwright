@@ -1,0 +1,25 @@
+{
+  "name": "lam-testing11-playwight",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:login": "playwright test login --project=chromium --headed",
+    "test:login:datadriven": "playwright test login --project=chromium --headed --grep \"data provider\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shikichanel-stack/lam-testing11-playwight.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shikichanel-stack/lam-testing11-playwight/issues"
+  },
+  "homepage": "https://github.com/shikichanel-stack/lam-testing11-playwight#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.58.2",
+    "@types/node": "^25.5.0"
+  }
+}
